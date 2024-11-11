@@ -267,14 +267,14 @@ grid grass width:int(shape.width/5) height:int(shape.height/5){ //5m resolution 
     	bool is_hirschanger <- grass[index] intersects(hirschanger_polygon);
     	
     	if(is_cutback_21_23 and biomass< maxBiomass_21_23){
-    		biomass <- biomass+0.0029;
+    		biomass <- biomass+0.00295;
     	}
     	
     	if(is_cutback_20 and biomass<maxBiomass_20){
-			biomass <- biomass+0.0029;
+			biomass <- biomass+0.00295;
     	}
     	if(is_hirschanger and biomass< maxBiomass_hirschanger){
-    		biomass <- biomass+0.0029;
+    		biomass <- biomass+0.00295;
     	}
     }
    
