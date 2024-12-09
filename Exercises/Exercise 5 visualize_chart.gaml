@@ -118,8 +118,8 @@ global
  	//export data
 //	reflex save_data when: cycle = 10{
 	reflex save_data{
-			// Clear the CSV file by overwriting it 
 			if(steps=1){
+				// Clear the CSV file by overwriting it
 				save [] to: "./results/mean_min_max.csv" format: "csv" rewrite: true;
 				save ["Steps", "Mean Biomass", "Minimum Biomass", "Maximum Biomass"] to: "./results/mean_min_max.csv" format: "csv" rewrite: false;
 			}
