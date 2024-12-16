@@ -1,5 +1,5 @@
 /**
-* Model:        OrderOfExecution
+* Model:        actionNeighbourhoodExample
 * Author:       Upendra Oli
 * Description:  This exercise was provided to test and visualize different action neighbourhoods like random walk, correlated random walk, and movement towards target in GAMA platform.
 */

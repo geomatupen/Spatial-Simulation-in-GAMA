@@ -1,32 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="label"/>
+		<item key="selection" value="is_drain"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="label"/>
-			<item value="write"/>
-			<item value="do move"/>
-			<item value="avg_biomass_initial"/>
-			<item value="val"/>
-			<item value=".val"/>
-			<item value=".value"/>
-			<item value="flow"/>
-			<item value="mesh"/>
-			<item value="envelop"/>
+			<item value="is_drain"/>
 			<item value="drain"/>
+			<item value="cell "/>
+			<item value="cell"/>
+			<item value="drain_cells"/>
+			<item value="init_cells"/>
+			<item value="grid_value"/>
+			<item value="update_color"/>
+			<item value="update color"/>
+			<item value="flow"/>
+			<item value="action flow"/>
+			<item value="do flow"/>
+			<item value="already"/>
+			<item value="neighbour_cells"/>
+			<item value="neighbour_cells "/>
 		</list>
 		<list key="replacehistory">
 			<item value=""/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="1051"/>
-		<item key="DIALOG_Y_ORIGIN" value="158"/>
+		<item key="DIALOG_X_ORIGIN" value="873"/>
+		<item key="DIALOG_Y_ORIGIN" value="433"/>
 		<item key="DIALOG_WIDTH" value="322"/>
 		<item key="DIALOG_HEIGHT" value="391"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>

@@ -354,8 +354,8 @@ experiment OrderOfExecution type: gui {
               display "Mean, Min and Max Biomass each step" type: 2d {
 				chart "Line Chart" type: series x_label: "Mean biomass at each step" memorize: false {
 					data "mean biomass" value: meanlist color: #blue marker: false style: line;
-					data "min biomass" value: minlist color: #red marker: false style: line;
-					data "max biomass" value: maxlist color: #green marker: false style: line;
+//					data "min biomass" value: minlist color: #red marker: false style: line;
+//					data "max biomass" value: maxlist color: #green marker: false style: line;
 				}
 			 }
 			 display "Mean grass eaten by cows each step" type: 2d {
@@ -366,9 +366,12 @@ experiment OrderOfExecution type: gui {
 			 
 			 display charts  type: 2d {
 				//at each simulation step, display the value of y according to the value of x
-				chart "XY Plot" type: xy size: {1.0,0.75} position: {0,0.1}{
-						data legend: "average available grass per pixel" value:[steps-1,avg_available_grass] line_visible: false color: #green;
-						data legend: "mean eaten grass per cows" value:[steps-1,total_grass_eaten_this_step/total_cows] line_visible: false color: #red;
+//				chart "XY Plot" type: xy size: {1.0,0.75} position: {0,0.1}{
+////						data legend: "average available grass per pixel" value:[steps-1,avg_available_grass] line_visible: false color: #green;
+////						data legend: "mean eaten grass per cows" value:[steps-1,total_grass_eaten_this_step/total_cows] line_visible: false color: #red;
+//				}
+				chart "serie_x and serie_y" type: xy size: {1.0,0.5}{
+				 data legend: "x" value:rows_list(matrix([meanlist, mean_grass_eaten_list])) ;
 				}
 			}
        }
